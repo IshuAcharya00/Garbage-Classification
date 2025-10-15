@@ -1,26 +1,30 @@
 🧠 Image Classification and Real-Time Prediction Web App
 
-Project Overview
+Project Overview:
 
 This project is an AI-powered waste classification system that identifies images of waste into six categories — cardboard, glass, metal, paper, plastic, and trash.
 It promotes automated waste segregation and supports recycling through an easy-to-use Streamlit web application.
 
 
-Dataset
+
+Dataset:
 
 Source: Garbage Classification Dataset (Kaggle)
 Classes: cardboard, glass, metal, paper, plastic, trash
 Structure: Each class stored in a separate folder containing multiple images.
 Diversity: Varying lighting, angles, and backgrounds for robust learning.
 
-Data Preprocessing
+
+
+Data Preprocessing:
+
 
 Image Augmentation:
 
 Rotation, Zoom, Horizontal & Vertical Flip, Width/Height Shift
 
-Normalization:
 
+Normalization:
 Pixel values scaled to [0,1] and preprocessed using MobileNetV2’s preprocess_input()
 
 Data Split:
